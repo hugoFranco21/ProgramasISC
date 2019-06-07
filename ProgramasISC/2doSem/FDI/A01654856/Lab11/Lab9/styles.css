@@ -1,0 +1,20 @@
+/*css file for lab 9 */
+h1
+{
+	font-family: 'Roboto Slab', serif;
+	color: #8000ff;
+	text-align: center;
+}
+
+h2
+{
+	font-family: 'IBM Plex Mono', monospace;
+	color: #ff0000;
+	text-align: left;
+}
+
+ol
+{
+	font-family: sans-serif;
+	color: green;
+}

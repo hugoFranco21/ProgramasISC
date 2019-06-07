@@ -1,0 +1,43 @@
+/*Stylesheet for Lab 11*/
+h1
+{
+	color: #cc00ff;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+	
+table
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #888888;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td, th
+{
+	border: 1px solid #0000AA;
+	padding: 20px 40px;
+	font-family: 'PT Sans', sans-serif;
+	color: #006600;
+}
+
+th
+{
+	font-size: larger;
+	color: #990033;
+	background-image: url('images/thback.jpg');
+}
+
+body
+{
+	font-color: #cc3300;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: left;
+	background-image: url('images/wp.jpg');
+}
+

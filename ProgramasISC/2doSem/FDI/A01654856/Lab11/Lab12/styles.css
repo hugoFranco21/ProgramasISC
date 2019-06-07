@@ -1,0 +1,91 @@
+/*stylesheet for lab 12*/
+
+#header-section
+{
+	background-color: #F44336;
+	color: #fff;
+	height: 200px;
+}
+
+p
+{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.img1
+{
+	float: left;
+	max-width:100%;
+	height:auto;
+	border-radius: 8px;
+	padding-right: 20px;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#main-navbar{
+justify-content: initial;
+}
+#section1 {
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #1E88E5;
+}
+#section2 {
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #673ab7;
+}
+#section3 {
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #ff9800;
+}
+#section41 {
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #00bcd4;
+}
+#section42 {
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #009688;
+}
+#section4 {
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #ffbf00;
+}
+#section5 {
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #666699;
+}
+#section6 {
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #990033;
+}
+#sectionquote {
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #006600;
+}
+a:hover {
+cursor:pointer;
+}

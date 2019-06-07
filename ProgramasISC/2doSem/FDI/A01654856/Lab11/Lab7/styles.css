@@ -1,0 +1,48 @@
+/*Stylesheet for Lab 7*/
+
+table
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #CEF6F5;
+	border: 3px solid #1C1C1C;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td, th
+{
+	border: 1px solid #0000AA;
+	padding: 15px 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #0B0B61;
+}
+
+th
+{
+	/*background: #E3F6CE;*/
+	background-image: url('images/bg.jpg');
+	font-size: larger;
+	color: #29088A;
+}
+
+caption
+{
+	background: #8888FF;
+	margin: 0;
+	border: 3px solid #B40404;
+	border-bottom: none;
+	padding: 6px 16px;
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+}
+
+tfoot
+{
+	font-weight: lighter;
+	font-size: large;
+	color: #0B3B0B;
+	background-image: url('images/bfoot.jpg');
+}
+	

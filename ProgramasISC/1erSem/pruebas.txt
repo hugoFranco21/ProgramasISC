@@ -1,0 +1,11 @@
+j = 0, acu = 0, k = 1, if [k = 0,acu =0;k = 1 ,acu = 0; k= 2, acu = 0; l = 4, acu = 0]
+nombresor[0] = nombres[0] gut
+
+j=1, n=1, k=0, acu=0,if[k=0, acu = 1; k=1, acu = 1; k= 2, acu = 2; k = 3, acu = 3]
+nombresor[3] = nombres[1] gut
+
+j = 2, acu = 0, k = 0, if[k = 0, acu = 1; k=1, acu=1; k=2, acu=1; k=3, acu=2]
+nombresor[2] = nombres[2] gut
+
+
+

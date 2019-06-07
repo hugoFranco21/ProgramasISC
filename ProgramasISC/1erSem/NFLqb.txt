@@ -1,0 +1,10 @@
+Tom Brady Patriots 206 309 2541 16 2 
+Alex Smith Chiefs 204 293 2444 18 1
+Russell Wilson Seahawks 188 303 2305 17 6
+Carson Wentz Eagles 176 291 2262 23 5
+Drew Brees Saints 197 275 2214 13 4
+Matthew Stafford Lions 189 303 2212 14 4
+Matt Ryan Falcons 177 270 2157 11 7
+Kirk Cousins Redskins 182 268 2147 13 4
+Ben Roethlisberger Steelers 168 275 2062 10 9
+Jared Goff Rams 147 244 2030 13 4

@@ -1,0 +1,76 @@
+/*Stylesheet for lab 6*/
+h1
+{
+	font-family: 'Muli', sans-serif;
+	color: #9034b2;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Comfortaa', cursive;
+	color: #872631;
+	text-align: left;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	background-image: url('bg.jpg');
+}
+
+.style_country
+{
+	background-color: #98e2a4;
+	color: brown;
+	font-family: 'Dosis', sans-serif;
+	font-size:18px;
+}
+
+.style_hobby
+{
+	background-color: #ecebbb;
+	color: #154c1e;
+	font-family: Helvetica, sans-serif;
+}
+
+
+.style_movie
+{
+	background-color: #bbc5ec;
+	color: black;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 18px;
+}
+
+.style_menu
+{
+	list-style-type:lower-aplha;
+	margin: 20px;
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: large;
+}
+
+a:link
+{
+	font-weight: bold;
+	color: white;
+	background-color: teal;
+	width: 120px;
+	text-decoration:underline;
+}
+
+a:visited
+{
+	font-weight:bold;
+	color:white;
+	background-color:purple;
+	width:120px;
+	text-decoration:underline;
+}
+
+.background
+{
+	text-align:right;
+	font-family:Arial, sans-serif;
+}
+

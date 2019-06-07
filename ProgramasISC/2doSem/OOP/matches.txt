@@ -1,0 +1,2 @@
+Hugo correctly guessed the word 'aggregation' with 3 lives remaining.
+David couldn't guess the word 'parameter' within his 5 lives.
