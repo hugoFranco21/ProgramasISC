@@ -1,0 +1,29 @@
+create view inventariogammadelta
+as
+select c.codigogamma as codigogamma, c.codigodelta as codigodelta, (id.existencias + (ig.entradas - ig.salidas)) as inventario
+from catalogogammadelta c, inventariodelta@delta id, inventariogamma ig
+where c.codigogamma=ig.codigogamma and c.codigodelta=id.codigodelta;
+
+create view catalogofusiongd
+as
+select * from catalogogammadelta
+union
+select 'SCG' as codigogamma, d.codigodelta as codigodelta, d.aleacion as aleacion, d.diametroexterno as diametroexterno, (d.diametroexterno-espesor) as diametrointerno, d.espesor
+from catalogodelta@delta d
+where d.codigodelta not in (select codigodelta from catalogogammadelta)
+union
+select g.codigogamma, 'SCD' as codigodelta, g.aleacion as aleacion, g.diametroexterno as diametroexterno, g.diametrointerno as diametrointerno, (g.diametroexterno - g.diametrointerno) as espesor
+from catalogogamma g
+where g.codigogamma not in (select codigogamma from catalogogammadelta)
+
+create view inventariofusiongd
+as
+select * from inventariogammadelta
+union
+select 'SCG' as codigogamma, id.codigodelta as codigodelta, id.existencias as inventario
+from inventariodelta@delta id
+where id.codigodelta not in (select codigodelta from inventariogammadelta)
+union
+select ig.codigogamma, 'SCD' as codigodelta, (ig.entradas-ig.salidas) as inventario
+from inventariogamma ig
+where ig.codigogamma not in (select codigogamma from inventariogammadelta)
