@@ -1,0 +1,22 @@
+1. El problema es muy parecido al del trineo de Santa Claus, es quizás incluso
+un poco más sencillo. Para la solución estoy utilizando semáforos,
+la idea es que se tenga un semaforo que decremente cada que salga un carro, y que al salir todos
+detenga la ejecución de los programas con otro semaforo que indica el fin. Otro semáforo indique si hay un carro actualmente en movimiento,
+un mutex para que se puedan ejecutar secuencialmente los procesos de rides y passengers,
+otro en donde se cuente el número de pasajeros en un carrito, y otro que cuente el número de pasajeros totales,
+e ir ejecutando el programa.
+
+2. Para correr el programa se debe:
+  -Crear los recursos con el archivo create.c
+  -Ejecutar rides.c con el numero de carritos T que van a funcionar
+  -Ejecutar passengers.c con el numero de pasajeros N, y el numero de pasajeros por carro C
+
+EJ:
+  gcc create.c -o c
+  gcc passengers.c -o p
+  gcc rides.c -o r
+  ./c
+  ./p 7 2
+  ./r 3
+
+NOTA: El orden de ejecucion de p y r no afecta el resultado.
